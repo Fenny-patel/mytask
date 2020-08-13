@@ -1,37 +1,200 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Fenny-patel/mytask/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fenny-patel/mytask/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<html>
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Responsive Layout </title>
+	<style> 
+		* {
+			box-sizing: border-box;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		h1 {
+			margin-bottom: 30px;
+			margin-top: 30px;
+			text-align: center;
+		}
+		p {
+			padding: 0px 10px 0px 10px;
+		}
+		.row {
+			width: 100%;
+		}
+		@media(min-width: 992px) {
+			.col-lg-4, .col-lg-8, .col-lg-12
+			{
+				float: left;
+			}    
+			.col-lg-4 {
+				width: 33.33%;
+			}
+			.col-lg-8 {
+				width: 66.66%;
+			}
+			.col-lg-12 {
+				width: 100%;
+			}
+			.chicken {
+				text-align: center;
+				font-weight: bold;
+				color: black;
+				background-color: pink;
+				border: 1px solid black;
+				padding: 10px 10px 10px 10px;
+				margin: 0px 0px 0px 300px;
+			}
+			.beef {
+				text-align: center;
+				font-weight: bold;
+				color: white;
+				background-color: red;
+				border: 1px solid black;
+				padding: 10px 10px 10px 10px;
+				margin: 0px 0px 0px 300px;
+			}
+			.sushi {
+				text-align: center;
+				font-weight: bold;
+				color: black;
+				background-color: blue;
+				border: 1px solid black;
+				padding: 10px 10px 10px 10px;
+				margin: 0px 0px 0px 300px;
+			}
+			#box {
+				background-color: grey;
+				border: 2px solid black;
+				margin: 10px 10px 10px 10px;
+			}
+			.space {
+				margin: 20px 40px 20px 40px;
+			}
+		}
+		@media(min-width: 768px) and (max-width: 991px) {
+			.col-md-4, .col-md-8, .col-md-12
+			{
+				float: left;
+			}  
+			.col-md-4 {
+				width: 50%;
+			}
+			.col-md-8 {
+				width: 50%;
+			}
+			.col-md-12{
+				width: 100%;
+			}
+			.chicken {
+				text-align: center;
+				font-weight: bold;
+				color: black;
+				background-color: pink;
+				border: 1px solid black;
+				padding: 10px 10px 10px 10px;
+				margin: 0px 0px 0px 160px;
+			}
+			.beef {
+				text-align: center;
+				font-weight: bold;				
+				color: white;
+				background-color: red;
+				border: 1px solid black;
+				padding: 10px 10px 10px 10px;
+				margin: 0px 0px 0px 160px;
+			}
+			.sushi {
+				text-align: center;
+				font-weight: bold;
+				color: black;
+				background-color: blue;
+				border: 1px solid black;
+				padding: 10px 10px 10px 10px;
+				margin: 0px 0px 0px 500px;
+			}
+			#box {
+					background-color: grey;
+					border: 2px solid black;
+					margin: 10px 10px 10px 10px;
+				}
+			.space {
+				margin: 20px 40px 20px 40px;
+				}
+		}
+		@media(max-width: 767px) {
+			.col-sd-4, .col-sd-8, .col-sd-12
+			{
+				float: left;
+			}
+			.col-sd-4 {
+				width: 100%;
+			}
+			.col-sd-8 {
+				width: 100%;
+			}
+			.col-sd-12 {
+				width: 100%;
+			}
+			.chicken {
+				text-align: center;
+				font-weight: bold;
+				color: black;
+				background-color: pink;
+				border: 1px solid black;
+				padding: 10px 10px 10px 10px;
+				margin: 0px 0px 0px 150px;
+			}
+			.beef {
+				text-align: center;
+				font-weight: bold;
+				color: white;
+				background-color: red;
+				border: 1px solid black;
+				padding: 10px 10px 10px 10px;
+				margin: 0px 0px 0px 150px;
+			}
+			.sushi {
+				text-align: center;
+				font-weight: bold;
+				color: black;
+				background-color: blue;
+				border: 1px solid black;
+				padding: 10px 10px 10px 10px;
+				margin: 0px 0px 0px 150px;
+			}
+			#box {
+				background-color: grey;
+				border: 2px solid black;
+				margin: 10px 10px 10px 10px;
+			}
+			.space {
+				margin: 20px 40px 20px 40px;
+			}
+		}
+	</style> 
+</head>
+<body>
+	<h1> Our Menu </h1>
+	<div class="row">
+	<div class="space">
+		<div class="col-lg-4 col-md-8 col-sd-12">
+			<div id="box">
+			<p class="chicken"> Chicken </p>
+				<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div>
+		</div> 
+		<div class="col-lg-4 col-md-8 col-sd-12">
+			<div id="box">
+			<p class="beef"> Beef </p>
+				<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-12 col-sd-12">
+			<div id="box">
+			<p class="sushi"> Sushi </p>
+				<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div>
+		</div> 
+	</div>
+	</div>
+</body>
+</html>
